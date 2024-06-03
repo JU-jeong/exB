@@ -1,0 +1,1 @@
+SELECT sales_date, product_code, quantity, register_datetime, update_datetime FROM t_sales WHERE sales_date BETWEEN '2024-01-01' AND '2024-01-31';

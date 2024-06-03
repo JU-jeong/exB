@@ -1,0 +1,12 @@
+mysql> describe new_table;
++--------------+---------------+------+-----+---------+-------+
+| Field        | Type          | Null | Key | Default | Extra |
++--------------+---------------+------+-----+---------+-------+
+| sales_date   | date          | NO   |     | NULL    |       |
+| product_code | int           | NO   |     | NULL    |       |
+| product_name | varchar(50)   | NO   |     | NULL    |       |
+| price        | decimal(10,2) | NO   |     | NULL    |       |
+| quantity     | int           | NO   |     | NULL    |       |
+| amount       | decimal(20,2) | NO   |     | 0.00    |       |
++--------------+---------------+------+-----+---------+-------+
+6 rows in set (0.02 sec)

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+	<Resource name="jdbc/root" auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password="tiger"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/exB_01?useUnicode=true&amp;characterEncoding=utf8"
+		validationQuery="Select 1"/>
+</Context>
